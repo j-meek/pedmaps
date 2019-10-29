@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2eef2fc3127b4eca89a3c1d23b349f3e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2eef2fc3127b4eca89a3c1d23b349f3e" ></div>
+        
+</body>
+<script>    
+    
+            var map_2eef2fc3127b4eca89a3c1d23b349f3e = L.map(
+                "map_2eef2fc3127b4eca89a3c1d23b349f3e",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9b439c7a2f224173842aee8964417f2f = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+            var circle_marker_11f1ef75905b4c9a81298478e41c68f0 = L.circleMarker(
+                [29.108500000000003, 100.03436111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_2c9bf42fd3914f899e2312e3193fac1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aef859ac8d2643a0bbcdb6e26f70932b = $(`<div id="html_aef859ac8d2643a0bbcdb6e26f70932b" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE46 | 2018</div>`)[0];
+            popup_2c9bf42fd3914f899e2312e3193fac1f.setContent(html_aef859ac8d2643a0bbcdb6e26f70932b);
+        
+
+        circle_marker_11f1ef75905b4c9a81298478e41c68f0.bindPopup(popup_2c9bf42fd3914f899e2312e3193fac1f)
+        ;
+
+        
+    
+    
+            var circle_marker_18b4770dcf574525a81bd6435cac1a39 = L.circleMarker(
+                [29.33486111111111, 100.09941666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_e4b262b1dccf456ea009b252da362470 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f61c0b4b4a3b4d64bcf3012900ba6bd8 = $(`<div id="html_f61c0b4b4a3b4d64bcf3012900ba6bd8" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE64 | 2018</div>`)[0];
+            popup_e4b262b1dccf456ea009b252da362470.setContent(html_f61c0b4b4a3b4d64bcf3012900ba6bd8);
+        
+
+        circle_marker_18b4770dcf574525a81bd6435cac1a39.bindPopup(popup_e4b262b1dccf456ea009b252da362470)
+        ;
+
+        
+    
+    
+            var circle_marker_90335871162b4039b729385ea3287b5e = L.circleMarker(
+                [29.385833333333334, 100.14944444444446],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_69a02eb1e37f46618e6f1adab26c6624 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa4750e5e1e9415d93cdeed19e18cbac = $(`<div id="html_fa4750e5e1e9415d93cdeed19e18cbac" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE68 | 2018</div>`)[0];
+            popup_69a02eb1e37f46618e6f1adab26c6624.setContent(html_fa4750e5e1e9415d93cdeed19e18cbac);
+        
+
+        circle_marker_90335871162b4039b729385ea3287b5e.bindPopup(popup_69a02eb1e37f46618e6f1adab26c6624)
+        ;
+
+        
+    
+    
+            var circle_marker_72a892fa79314c98bffca4bb52e621e7 = L.circleMarker(
+                [30.01097222222222, 100.31616666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_1a38b5635df64b4da800dfa650e22aff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3b6fcde8fdf438583bd39bff057d43f = $(`<div id="html_a3b6fcde8fdf438583bd39bff057d43f" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE72 | 2018</div>`)[0];
+            popup_1a38b5635df64b4da800dfa650e22aff.setContent(html_a3b6fcde8fdf438583bd39bff057d43f);
+        
+
+        circle_marker_72a892fa79314c98bffca4bb52e621e7.bindPopup(popup_1a38b5635df64b4da800dfa650e22aff)
+        ;
+
+        
+    
+    
+            var circle_marker_3b352d1b823d40ba982bd4b74a8b373e = L.circleMarker(
+                [30.158749999999998, 100.56608333333332],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_0e20801fd2b743bb8c893eee5cb3c29c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_929b6d17dbd54833ba7d248f7d01ff9e = $(`<div id="html_929b6d17dbd54833ba7d248f7d01ff9e" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE84 | 2018</div>`)[0];
+            popup_0e20801fd2b743bb8c893eee5cb3c29c.setContent(html_929b6d17dbd54833ba7d248f7d01ff9e);
+        
+
+        circle_marker_3b352d1b823d40ba982bd4b74a8b373e.bindPopup(popup_0e20801fd2b743bb8c893eee5cb3c29c)
+        ;
+
+        
+    
+    
+            var circle_marker_e28c2435c9c64aadb65c6782a095ffac = L.circleMarker(
+                [30.41916666666667, 101.54805555555555],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_a56eb969d9244ccd9f8d014d86592b1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42cdc6563d5d4aa397f78f4a1ac992fc = $(`<div id="html_42cdc6563d5d4aa397f78f4a1ac992fc" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE130 | 2018</div>`)[0];
+            popup_a56eb969d9244ccd9f8d014d86592b1a.setContent(html_42cdc6563d5d4aa397f78f4a1ac992fc);
+        
+
+        circle_marker_e28c2435c9c64aadb65c6782a095ffac.bindPopup(popup_a56eb969d9244ccd9f8d014d86592b1a)
+        ;
+
+        
+    
+    
+            var circle_marker_6a7063958439420ea633b2b747e9b899 = L.circleMarker(
+                [30.57702777777778, 101.41797222222223],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_aa2a8b9b15374b3597a06a21d175483d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_335d7a8b63e0499784aa6a43ea06491e = $(`<div id="html_335d7a8b63e0499784aa6a43ea06491e" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE143 | 2018</div>`)[0];
+            popup_aa2a8b9b15374b3597a06a21d175483d.setContent(html_335d7a8b63e0499784aa6a43ea06491e);
+        
+
+        circle_marker_6a7063958439420ea633b2b747e9b899.bindPopup(popup_aa2a8b9b15374b3597a06a21d175483d)
+        ;
+
+        
+    
+    
+            var circle_marker_b55c1bdb9d10403081fb03191846fa69 = L.circleMarker(
+                [30.64311111111111, 101.4041388888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_704dd1d0d6da4d7da28d68c21b3819bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3efeace293b948e2830360a4ca5aaa96 = $(`<div id="html_3efeace293b948e2830360a4ca5aaa96" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE152 | 2018</div>`)[0];
+            popup_704dd1d0d6da4d7da28d68c21b3819bc.setContent(html_3efeace293b948e2830360a4ca5aaa96);
+        
+
+        circle_marker_b55c1bdb9d10403081fb03191846fa69.bindPopup(popup_704dd1d0d6da4d7da28d68c21b3819bc)
+        ;
+
+        
+    
+    
+            var circle_marker_bb8c8b1b727b42b1b3ce2dd80f237a50 = L.circleMarker(
+                [30.71183333333333, 101.36433333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_0ddf8d005b0443d7b40973ac702091b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9f79012533541609e9b6c8acadabeca = $(`<div id="html_e9f79012533541609e9b6c8acadabeca" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE155 | 2018</div>`)[0];
+            popup_0ddf8d005b0443d7b40973ac702091b1.setContent(html_e9f79012533541609e9b6c8acadabeca);
+        
+
+        circle_marker_bb8c8b1b727b42b1b3ce2dd80f237a50.bindPopup(popup_0ddf8d005b0443d7b40973ac702091b1)
+        ;
+
+        
+    
+    
+            var circle_marker_23111b438ab94b5fa0ed589a28610de4 = L.circleMarker(
+                [32.009027777777774, 99.04827777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_3489fe0ba9284fc5be06390774da7d17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_880cd26fcf1d4310895b10003b8f3bf0 = $(`<div id="html_880cd26fcf1d4310895b10003b8f3bf0" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE305 | 2018</div>`)[0];
+            popup_3489fe0ba9284fc5be06390774da7d17.setContent(html_880cd26fcf1d4310895b10003b8f3bf0);
+        
+
+        circle_marker_23111b438ab94b5fa0ed589a28610de4.bindPopup(popup_3489fe0ba9284fc5be06390774da7d17)
+        ;
+
+        
+    
+    
+            var circle_marker_d244f8175e40499aab16a4edc7953fe6 = L.circleMarker(
+                [31.46325, 98.82013888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_0ff4b07f93054ba5baaeb8b5cdb0a9cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2f7f09a0114463e91f5684acd547994 = $(`<div id="html_a2f7f09a0114463e91f5684acd547994" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE334 | 2018</div>`)[0];
+            popup_0ff4b07f93054ba5baaeb8b5cdb0a9cf.setContent(html_a2f7f09a0114463e91f5684acd547994);
+        
+
+        circle_marker_d244f8175e40499aab16a4edc7953fe6.bindPopup(popup_0ff4b07f93054ba5baaeb8b5cdb0a9cf)
+        ;
+
+        
+    
+    
+            var circle_marker_7fad53e5a8a24f8084c6847cd3d342ea = L.circleMarker(
+                [30.297027777777778, 99.671],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_228fd253b3654ac9b582ae5f3235c8b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f2f752fbeec40ea8e42197c1a11e850 = $(`<div id="html_8f2f752fbeec40ea8e42197c1a11e850" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE396 | 2018</div>`)[0];
+            popup_228fd253b3654ac9b582ae5f3235c8b0.setContent(html_8f2f752fbeec40ea8e42197c1a11e850);
+        
+
+        circle_marker_7fad53e5a8a24f8084c6847cd3d342ea.bindPopup(popup_228fd253b3654ac9b582ae5f3235c8b0)
+        ;
+
+        
+    
+    
+            var circle_marker_76756ecb81bc4df3933de33fd98f4789 = L.circleMarker(
+                [30.223249999999997, 100.26427777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_326f780cf4d640cea0cc15aa62fa3694 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53ba6e3c56dc4a628eede86329477cde = $(`<div id="html_53ba6e3c56dc4a628eede86329477cde" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE410 | 2018</div>`)[0];
+            popup_326f780cf4d640cea0cc15aa62fa3694.setContent(html_53ba6e3c56dc4a628eede86329477cde);
+        
+
+        circle_marker_76756ecb81bc4df3933de33fd98f4789.bindPopup(popup_326f780cf4d640cea0cc15aa62fa3694)
+        ;
+
+        
+    
+    
+            var circle_marker_ea196ba89c3349ff8b0b841b20a3c964 = L.circleMarker(
+                [29.820833333333333, 100.34588888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_669fbb7474414fdfacb3e8e36b97d55b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01bbabaa214a4eb7b77efec529ef22c7 = $(`<div id="html_01bbabaa214a4eb7b77efec529ef22c7" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE416 | 2018</div>`)[0];
+            popup_669fbb7474414fdfacb3e8e36b97d55b.setContent(html_01bbabaa214a4eb7b77efec529ef22c7);
+        
+
+        circle_marker_ea196ba89c3349ff8b0b841b20a3c964.bindPopup(popup_669fbb7474414fdfacb3e8e36b97d55b)
+        ;
+
+        
+    
+    
+            var circle_marker_9d446cd8d72f4e409d763ffad56d9fa0 = L.circleMarker(
+                [29.141805555555557, 100.15661111111112],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_104a6f756eaf41e9a1332975c26bb38c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f8f3935dbf44341bd1ebbd7ecc218b3 = $(`<div id="html_2f8f3935dbf44341bd1ebbd7ecc218b3" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE422 | 2018</div>`)[0];
+            popup_104a6f756eaf41e9a1332975c26bb38c.setContent(html_2f8f3935dbf44341bd1ebbd7ecc218b3);
+        
+
+        circle_marker_9d446cd8d72f4e409d763ffad56d9fa0.bindPopup(popup_104a6f756eaf41e9a1332975c26bb38c)
+        ;
+
+        
+    
+    
+            var circle_marker_b3a4beeb051e46618352b4a80e683173 = L.circleMarker(
+                [28.74638888888889, 100.26916666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_fcb645925f564c8b9e509288cabfee3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b5967c667f5419c89e2671ea02dd991 = $(`<div id="html_2b5967c667f5419c89e2671ea02dd991" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE433 | 2018</div>`)[0];
+            popup_fcb645925f564c8b9e509288cabfee3e.setContent(html_2b5967c667f5419c89e2671ea02dd991);
+        
+
+        circle_marker_b3a4beeb051e46618352b4a80e683173.bindPopup(popup_fcb645925f564c8b9e509288cabfee3e)
+        ;
+
+        
+    
+    
+            var circle_marker_442859061bba4b73900c658ac781ad1e = L.circleMarker(
+                [27.80763888888889, 99.76297222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_d60ff96f6c334633be73a99cd527dcd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1343d3dffc8c46f8add2ee1e36d0f188 = $(`<div id="html_1343d3dffc8c46f8add2ee1e36d0f188" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE463 | 2018</div>`)[0];
+            popup_d60ff96f6c334633be73a99cd527dcd8.setContent(html_1343d3dffc8c46f8add2ee1e36d0f188);
+        
+
+        circle_marker_442859061bba4b73900c658ac781ad1e.bindPopup(popup_d60ff96f6c334633be73a99cd527dcd8)
+        ;
+
+        
+    
+    
+            var circle_marker_70b4de42d3dc4b0181e567a229d6c2da = L.circleMarker(
+                [27.811805555555555, 99.76633333333334],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_56cce742c2c742a9b74c77198738b401 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11c8cefd7f8840e4aff0d05eef19deb9 = $(`<div id="html_11c8cefd7f8840e4aff0d05eef19deb9" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE473 | 2018</div>`)[0];
+            popup_56cce742c2c742a9b74c77198738b401.setContent(html_11c8cefd7f8840e4aff0d05eef19deb9);
+        
+
+        circle_marker_70b4de42d3dc4b0181e567a229d6c2da.bindPopup(popup_56cce742c2c742a9b74c77198738b401)
+        ;
+
+        
+    
+    
+            var circle_marker_d688c20340e4465da214683e3bd5fc23 = L.circleMarker(
+                [28.322222222222223, 101.16638888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_0aac1f9b71c948b0a062cabc87783fd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d268edc81812457791c8f19b871a50e4 = $(`<div id="html_d268edc81812457791c8f19b871a50e4" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE490 | 2019</div>`)[0];
+            popup_0aac1f9b71c948b0a062cabc87783fd5.setContent(html_d268edc81812457791c8f19b871a50e4);
+        
+
+        circle_marker_d688c20340e4465da214683e3bd5fc23.bindPopup(popup_0aac1f9b71c948b0a062cabc87783fd5)
+        ;
+
+        
+    
+    
+            var circle_marker_263f6bf9bfad45b9a7549af9dab839fb = L.circleMarker(
+                [30.040277777777778, 101.83777777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_4fea5486fac54d14935fe7dea4b69f6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b05b3b02336e480f87e9269f0eb74211 = $(`<div id="html_b05b3b02336e480f87e9269f0eb74211" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE537 | 2019</div>`)[0];
+            popup_4fea5486fac54d14935fe7dea4b69f6d.setContent(html_b05b3b02336e480f87e9269f0eb74211);
+        
+
+        circle_marker_263f6bf9bfad45b9a7549af9dab839fb.bindPopup(popup_4fea5486fac54d14935fe7dea4b69f6d)
+        ;
+
+        
+    
+    
+            var circle_marker_1f4b1c70971e4175882abd8ed7ec0597 = L.circleMarker(
+                [30.74063888888889, 101.33436111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_85aae634fcbe4f3f967cce7e8826f99d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c93b0dc7c3248369d4ad402a2cca077 = $(`<div id="html_1c93b0dc7c3248369d4ad402a2cca077" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE558 | 2019</div>`)[0];
+            popup_85aae634fcbe4f3f967cce7e8826f99d.setContent(html_1c93b0dc7c3248369d4ad402a2cca077);
+        
+
+        circle_marker_1f4b1c70971e4175882abd8ed7ec0597.bindPopup(popup_85aae634fcbe4f3f967cce7e8826f99d)
+        ;
+
+        
+    
+    
+            var circle_marker_98a881f683da4284a867b6f674fdf68b = L.circleMarker(
+                [32.908055555555556, 101.89055555555557],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_0686ba9aa7f14c40bca19f8d61a3abcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdbe023d82464aa882a39b9bbc96f56b = $(`<div id="html_bdbe023d82464aa882a39b9bbc96f56b" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | DE692 | 2019</div>`)[0];
+            popup_0686ba9aa7f14c40bca19f8d61a3abcf.setContent(html_bdbe023d82464aa882a39b9bbc96f56b);
+        
+
+        circle_marker_98a881f683da4284a867b6f674fdf68b.bindPopup(popup_0686ba9aa7f14c40bca19f8d61a3abcf)
+        ;
+
+        
+    
+    
+            var circle_marker_38c2d414ac3845dba8ee73f1344cd00f = L.circleMarker(
+                [28.74638888888889, 100.26916666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_ef860fe17d73495aaaef1afbddcadaee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_257a5f620e8c4af69cebc44a0b247875 = $(`<div id="html_257a5f620e8c4af69cebc44a0b247875" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | 28273 | 1998</div>`)[0];
+            popup_ef860fe17d73495aaaef1afbddcadaee.setContent(html_257a5f620e8c4af69cebc44a0b247875);
+        
+
+        circle_marker_38c2d414ac3845dba8ee73f1344cd00f.bindPopup(popup_ef860fe17d73495aaaef1afbddcadaee)
+        ;
+
+        
+    
+    
+            var circle_marker_5553ce692bae4b2eb7f39151895e3e12 = L.circleMarker(
+                [29.112222222222222, 100.03277777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_75459c601b4f4ab3bf6ca86cb6877eab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1088b0de181433090c89079bead10db = $(`<div id="html_a1088b0de181433090c89079bead10db" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | 28603 | 1998</div>`)[0];
+            popup_75459c601b4f4ab3bf6ca86cb6877eab.setContent(html_a1088b0de181433090c89079bead10db);
+        
+
+        circle_marker_5553ce692bae4b2eb7f39151895e3e12.bindPopup(popup_75459c601b4f4ab3bf6ca86cb6877eab)
+        ;
+
+        
+    
+    
+            var circle_marker_fb964227e6484b139814f6e5b7d0c116 = L.circleMarker(
+                [29.072777777777777, 99.67555555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_2eef2fc3127b4eca89a3c1d23b349f3e);
+        
+    
+        var popup_657a77c8c984495aa1ab7b59eefe9f32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65fe56c061424e83a02ee07d0c87de8e = $(`<div id="html_65fe56c061424e83a02ee07d0c87de8e" style="width: 100.0%; height: 100.0%;">Pedicularis-integrifolia | 28910 | 1998</div>`)[0];
+            popup_657a77c8c984495aa1ab7b59eefe9f32.setContent(html_65fe56c061424e83a02ee07d0c87de8e);
+        
+
+        circle_marker_fb964227e6484b139814f6e5b7d0c116.bindPopup(popup_657a77c8c984495aa1ab7b59eefe9f32)
+        ;
+
+        
+    
+</script>

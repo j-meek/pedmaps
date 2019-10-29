@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5618d4fb18c8416684b763a3f245a1eb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5618d4fb18c8416684b763a3f245a1eb" ></div>
+        
+</body>
+<script>    
+    
+            var map_5618d4fb18c8416684b763a3f245a1eb = L.map(
+                "map_5618d4fb18c8416684b763a3f245a1eb",
+                {
+                    center: [30.3849, 101.0083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0bf62948dac743f1aee35a22ef6897d5 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+            var circle_marker_cc0ad710b7f54e77ad075949c173f7de = L.circleMarker(
+                [28.57225, 99.82363888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_ba6143c129bc468d95503094ea4265cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f337fd94a01542159a641fdd974093e0 = $(`<div id="html_f337fd94a01542159a641fdd974093e0" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE14 | 2018</div>`)[0];
+            popup_ba6143c129bc468d95503094ea4265cf.setContent(html_f337fd94a01542159a641fdd974093e0);
+        
+
+        circle_marker_cc0ad710b7f54e77ad075949c173f7de.bindPopup(popup_ba6143c129bc468d95503094ea4265cf)
+        ;
+
+        
+    
+    
+            var circle_marker_e76e5b8d74284a4da30810ed366ec67c = L.circleMarker(
+                [28.61722222222222, 99.83083333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_6a1c40f3d32b478e82bf0a5ffba203be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ca04b1ff3834d8c8c73cfd03cab76ae = $(`<div id="html_8ca04b1ff3834d8c8c73cfd03cab76ae" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE30 | 2018</div>`)[0];
+            popup_6a1c40f3d32b478e82bf0a5ffba203be.setContent(html_8ca04b1ff3834d8c8c73cfd03cab76ae);
+        
+
+        circle_marker_e76e5b8d74284a4da30810ed366ec67c.bindPopup(popup_6a1c40f3d32b478e82bf0a5ffba203be)
+        ;
+
+        
+    
+    
+            var circle_marker_0eda1e7d51ae4d8990d607eb98bfaf21 = L.circleMarker(
+                [28.650138888888886, 99.83366666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_070d9f9cd9904ef3a36d31b0c7f38d72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f5f82ec3c384a1e94f6500f11723e79 = $(`<div id="html_1f5f82ec3c384a1e94f6500f11723e79" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE33 | 2018</div>`)[0];
+            popup_070d9f9cd9904ef3a36d31b0c7f38d72.setContent(html_1f5f82ec3c384a1e94f6500f11723e79);
+        
+
+        circle_marker_0eda1e7d51ae4d8990d607eb98bfaf21.bindPopup(popup_070d9f9cd9904ef3a36d31b0c7f38d72)
+        ;
+
+        
+    
+    
+            var circle_marker_5adf8a2e7e1b4ab0b00f6ea2a8e5041e = L.circleMarker(
+                [29.14472222222222, 100.03477777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_f69c29488f3c4575828b34240de8419a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aad0aabf799b42b7a5eab5d31051acf7 = $(`<div id="html_aad0aabf799b42b7a5eab5d31051acf7" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE52 | 2018</div>`)[0];
+            popup_f69c29488f3c4575828b34240de8419a.setContent(html_aad0aabf799b42b7a5eab5d31051acf7);
+        
+
+        circle_marker_5adf8a2e7e1b4ab0b00f6ea2a8e5041e.bindPopup(popup_f69c29488f3c4575828b34240de8419a)
+        ;
+
+        
+    
+    
+            var circle_marker_ea7494a52e894caeab1ce6ca665bd9d6 = L.circleMarker(
+                [30.46875, 101.50977777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_64e1b57a64fe4eca8b88a867cd8bc8c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c98d9cff9fc4edda575f837f105a5a3 = $(`<div id="html_8c98d9cff9fc4edda575f837f105a5a3" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE135 | 2018</div>`)[0];
+            popup_64e1b57a64fe4eca8b88a867cd8bc8c1.setContent(html_8c98d9cff9fc4edda575f837f105a5a3);
+        
+
+        circle_marker_ea7494a52e894caeab1ce6ca665bd9d6.bindPopup(popup_64e1b57a64fe4eca8b88a867cd8bc8c1)
+        ;
+
+        
+    
+    
+            var circle_marker_940a06e899214e1d8e1ab140666f337d = L.circleMarker(
+                [30.57702777777778, 101.41797222222223],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_9c2fd3f3c3fd40aa9c042bfdec16ffa8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ae71adc1e7447ea8af6e352fa498e79 = $(`<div id="html_0ae71adc1e7447ea8af6e352fa498e79" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE136 | 2018</div>`)[0];
+            popup_9c2fd3f3c3fd40aa9c042bfdec16ffa8.setContent(html_0ae71adc1e7447ea8af6e352fa498e79);
+        
+
+        circle_marker_940a06e899214e1d8e1ab140666f337d.bindPopup(popup_9c2fd3f3c3fd40aa9c042bfdec16ffa8)
+        ;
+
+        
+    
+    
+            var circle_marker_258ca752735446a2ac5f52954b6944c7 = L.circleMarker(
+                [30.71183333333333, 101.36433333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_dcd78484d2a1427c86bddb26b64450b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6e7810f9dc14c0ea749be5f825322b0 = $(`<div id="html_f6e7810f9dc14c0ea749be5f825322b0" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE162 | 2018</div>`)[0];
+            popup_dcd78484d2a1427c86bddb26b64450b7.setContent(html_f6e7810f9dc14c0ea749be5f825322b0);
+        
+
+        circle_marker_258ca752735446a2ac5f52954b6944c7.bindPopup(popup_dcd78484d2a1427c86bddb26b64450b7)
+        ;
+
+        
+    
+    
+            var circle_marker_4bf7998ec37041389076ea14a505b027 = L.circleMarker(
+                [30.71183333333333, 101.36433333333333],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_15349dc91fb84446bb5467ca4224e5b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e5ae912231d4094896abb7d5b57bcd9 = $(`<div id="html_2e5ae912231d4094896abb7d5b57bcd9" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE163 | 2018</div>`)[0];
+            popup_15349dc91fb84446bb5467ca4224e5b5.setContent(html_2e5ae912231d4094896abb7d5b57bcd9);
+        
+
+        circle_marker_4bf7998ec37041389076ea14a505b027.bindPopup(popup_15349dc91fb84446bb5467ca4224e5b5)
+        ;
+
+        
+    
+    
+            var circle_marker_95b0ce8c1ec343aea2bb85208ce79069 = L.circleMarker(
+                [30.826777777777778, 101.28227777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_9d4d988cb71c4778927037f87ad55246 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9bea41ea2a64b7699475a29382b1c06 = $(`<div id="html_b9bea41ea2a64b7699475a29382b1c06" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE184 | 2018</div>`)[0];
+            popup_9d4d988cb71c4778927037f87ad55246.setContent(html_b9bea41ea2a64b7699475a29382b1c06);
+        
+
+        circle_marker_95b0ce8c1ec343aea2bb85208ce79069.bindPopup(popup_9d4d988cb71c4778927037f87ad55246)
+        ;
+
+        
+    
+    
+            var circle_marker_8c909c33fbe04d179646528814c48e52 = L.circleMarker(
+                [31.392805555555555, 100.68261111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_9577a78e19834e36be29d03970e2e7ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45278f0bf9de44c89fa8ba6b56105e9b = $(`<div id="html_45278f0bf9de44c89fa8ba6b56105e9b" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE191 | 2018</div>`)[0];
+            popup_9577a78e19834e36be29d03970e2e7ea.setContent(html_45278f0bf9de44c89fa8ba6b56105e9b);
+        
+
+        circle_marker_8c909c33fbe04d179646528814c48e52.bindPopup(popup_9577a78e19834e36be29d03970e2e7ea)
+        ;
+
+        
+    
+    
+            var circle_marker_1f4da8fb50134b6ab4247c9a561ed9ff = L.circleMarker(
+                [31.57472222222222, 100.72094444444444],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_fac99eccef9c4dad80153fad26b3591b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0a54effc5b84cc1886f6d18a624883f = $(`<div id="html_d0a54effc5b84cc1886f6d18a624883f" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE194 | 2018</div>`)[0];
+            popup_fac99eccef9c4dad80153fad26b3591b.setContent(html_d0a54effc5b84cc1886f6d18a624883f);
+        
+
+        circle_marker_1f4da8fb50134b6ab4247c9a561ed9ff.bindPopup(popup_fac99eccef9c4dad80153fad26b3591b)
+        ;
+
+        
+    
+    
+            var circle_marker_5571ef2d54604b38a9faeb0369ff5af3 = L.circleMarker(
+                [31.6575, 100.70130555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_88b6d2766fcc4f50a235b7551b804ac7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75b33bfda916449daab5b4ba3ac84d91 = $(`<div id="html_75b33bfda916449daab5b4ba3ac84d91" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE199 | 2018</div>`)[0];
+            popup_88b6d2766fcc4f50a235b7551b804ac7.setContent(html_75b33bfda916449daab5b4ba3ac84d91);
+        
+
+        circle_marker_5571ef2d54604b38a9faeb0369ff5af3.bindPopup(popup_88b6d2766fcc4f50a235b7551b804ac7)
+        ;
+
+        
+    
+    
+            var circle_marker_8fe91b7e1fec403e8161e4e719bca59f = L.circleMarker(
+                [31.787916666666668, 100.74775],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_883375051a8342e1b286448ef69668e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_193830f049ea44dfab95c7a2db841a55 = $(`<div id="html_193830f049ea44dfab95c7a2db841a55" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE209 | 2018</div>`)[0];
+            popup_883375051a8342e1b286448ef69668e5.setContent(html_193830f049ea44dfab95c7a2db841a55);
+        
+
+        circle_marker_8fe91b7e1fec403e8161e4e719bca59f.bindPopup(popup_883375051a8342e1b286448ef69668e5)
+        ;
+
+        
+    
+    
+            var circle_marker_fa09eea4912c44e2a10be7ea94b2c2d0 = L.circleMarker(
+                [31.83186111111111, 100.73927777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_f8c6ecc5d12243099390ba784ec47ce5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_592a1a2dd11e40ae98178f38179f9633 = $(`<div id="html_592a1a2dd11e40ae98178f38179f9633" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE217 | 2018</div>`)[0];
+            popup_f8c6ecc5d12243099390ba784ec47ce5.setContent(html_592a1a2dd11e40ae98178f38179f9633);
+        
+
+        circle_marker_fa09eea4912c44e2a10be7ea94b2c2d0.bindPopup(popup_f8c6ecc5d12243099390ba784ec47ce5)
+        ;
+
+        
+    
+    
+            var circle_marker_b2285552e9b744279f65a6bdd2d57c6a = L.circleMarker(
+                [31.201027777777778, 100.85788888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_6070ec62355d4c178117f8e26dab3fcd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4c273de77754a32bf78b7c8ea4a50fb = $(`<div id="html_b4c273de77754a32bf78b7c8ea4a50fb" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE221 | 2018</div>`)[0];
+            popup_6070ec62355d4c178117f8e26dab3fcd.setContent(html_b4c273de77754a32bf78b7c8ea4a50fb);
+        
+
+        circle_marker_b2285552e9b744279f65a6bdd2d57c6a.bindPopup(popup_6070ec62355d4c178117f8e26dab3fcd)
+        ;
+
+        
+    
+    
+            var circle_marker_469aafec30f14a57b20d49817f9bfca0 = L.circleMarker(
+                [31.201027777777778, 100.85788888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_48f38194dfab44e991d09d24651d876b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c1687899c4846a489ec141503b0919e = $(`<div id="html_8c1687899c4846a489ec141503b0919e" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE222 | 2018</div>`)[0];
+            popup_48f38194dfab44e991d09d24651d876b.setContent(html_8c1687899c4846a489ec141503b0919e);
+        
+
+        circle_marker_469aafec30f14a57b20d49817f9bfca0.bindPopup(popup_48f38194dfab44e991d09d24651d876b)
+        ;
+
+        
+    
+    
+            var circle_marker_77aa3888e8da44adaf895b41dc97299e = L.circleMarker(
+                [31.54313888888889, 100.47063888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_e842c287e67e42a080247e8c3b2f9816 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a0ac30d28ab4b6ea32c4882bc7bb797 = $(`<div id="html_4a0ac30d28ab4b6ea32c4882bc7bb797" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE232 | 2018</div>`)[0];
+            popup_e842c287e67e42a080247e8c3b2f9816.setContent(html_4a0ac30d28ab4b6ea32c4882bc7bb797);
+        
+
+        circle_marker_77aa3888e8da44adaf895b41dc97299e.bindPopup(popup_e842c287e67e42a080247e8c3b2f9816)
+        ;
+
+        
+    
+    
+            var circle_marker_c506991d06e649c9a6388eec3ef8d2f9 = L.circleMarker(
+                [31.596555555555554, 100.36897222222221],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_a5db399e0fb94fe3b7c22540644dc34c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4f120904e20450c916a5d3008d06841 = $(`<div id="html_b4f120904e20450c916a5d3008d06841" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE240 | 2018</div>`)[0];
+            popup_a5db399e0fb94fe3b7c22540644dc34c.setContent(html_b4f120904e20450c916a5d3008d06841);
+        
+
+        circle_marker_c506991d06e649c9a6388eec3ef8d2f9.bindPopup(popup_a5db399e0fb94fe3b7c22540644dc34c)
+        ;
+
+        
+    
+    
+            var circle_marker_adfdd6bdf65d42fe8f86714aa21d910b = L.circleMarker(
+                [31.596555555555554, 100.36897222222221],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_4ae7e878c9f54c3f8b7a985d55c025ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1213f561c2c4419815c6ec271e3f38a = $(`<div id="html_f1213f561c2c4419815c6ec271e3f38a" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE241 | 2018</div>`)[0];
+            popup_4ae7e878c9f54c3f8b7a985d55c025ca.setContent(html_f1213f561c2c4419815c6ec271e3f38a);
+        
+
+        circle_marker_adfdd6bdf65d42fe8f86714aa21d910b.bindPopup(popup_4ae7e878c9f54c3f8b7a985d55c025ca)
+        ;
+
+        
+    
+    
+            var circle_marker_958ee3343498400d920b5464c4d7ee18 = L.circleMarker(
+                [31.596555555555554, 100.36897222222221],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_2455212d93994450878d61da31c37809 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31cd222473b045d1bdeb08e669212b20 = $(`<div id="html_31cd222473b045d1bdeb08e669212b20" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE242 | 2018</div>`)[0];
+            popup_2455212d93994450878d61da31c37809.setContent(html_31cd222473b045d1bdeb08e669212b20);
+        
+
+        circle_marker_958ee3343498400d920b5464c4d7ee18.bindPopup(popup_2455212d93994450878d61da31c37809)
+        ;
+
+        
+    
+    
+            var circle_marker_afc91c8cf39a416eb8bf713c4e54f680 = L.circleMarker(
+                [31.651888888888887, 100.25841666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_9f91aceab8da485a9538377398ac1d53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b75831154254c528a02fa79ae9634ba = $(`<div id="html_1b75831154254c528a02fa79ae9634ba" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE243 | 2018</div>`)[0];
+            popup_9f91aceab8da485a9538377398ac1d53.setContent(html_1b75831154254c528a02fa79ae9634ba);
+        
+
+        circle_marker_afc91c8cf39a416eb8bf713c4e54f680.bindPopup(popup_9f91aceab8da485a9538377398ac1d53)
+        ;
+
+        
+    
+    
+            var circle_marker_9b2f76e4acb74c4ca0b1172b807cfcf2 = L.circleMarker(
+                [31.62736111111111, 100.23436111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_a8276b57ea7a4ce29d18e624b4847ec6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9274cf7fbe049e09b985e09f0ca0fa5 = $(`<div id="html_c9274cf7fbe049e09b985e09f0ca0fa5" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE253 | 2018</div>`)[0];
+            popup_a8276b57ea7a4ce29d18e624b4847ec6.setContent(html_c9274cf7fbe049e09b985e09f0ca0fa5);
+        
+
+        circle_marker_9b2f76e4acb74c4ca0b1172b807cfcf2.bindPopup(popup_a8276b57ea7a4ce29d18e624b4847ec6)
+        ;
+
+        
+    
+    
+            var circle_marker_04af74fd669a44339074daa056fc6556 = L.circleMarker(
+                [31.62736111111111, 100.23436111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_4f205ae51c24407387f47eff5d1420d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bae3bb661eb4168ba0f782cc1976cb4 = $(`<div id="html_9bae3bb661eb4168ba0f782cc1976cb4" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE254 | 2018</div>`)[0];
+            popup_4f205ae51c24407387f47eff5d1420d1.setContent(html_9bae3bb661eb4168ba0f782cc1976cb4);
+        
+
+        circle_marker_04af74fd669a44339074daa056fc6556.bindPopup(popup_4f205ae51c24407387f47eff5d1420d1)
+        ;
+
+        
+    
+    
+            var circle_marker_b39243a37d544d3e95f5c917058d765c = L.circleMarker(
+                [31.62736111111111, 100.23436111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_bedb061c0db244df9dbccd35dd68dda8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03e858d78c64477bb1c3732061e3ab5f = $(`<div id="html_03e858d78c64477bb1c3732061e3ab5f" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE255 | 2018</div>`)[0];
+            popup_bedb061c0db244df9dbccd35dd68dda8.setContent(html_03e858d78c64477bb1c3732061e3ab5f);
+        
+
+        circle_marker_b39243a37d544d3e95f5c917058d765c.bindPopup(popup_bedb061c0db244df9dbccd35dd68dda8)
+        ;
+
+        
+    
+    
+            var circle_marker_0b433c8abda74043878ace160d8f725b = L.circleMarker(
+                [31.62736111111111, 100.23436111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_6feadd980a7548aba06c0562c4faeb95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a52018d095764faa938838479beb0ff2 = $(`<div id="html_a52018d095764faa938838479beb0ff2" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE256 | 2018</div>`)[0];
+            popup_6feadd980a7548aba06c0562c4faeb95.setContent(html_a52018d095764faa938838479beb0ff2);
+        
+
+        circle_marker_0b433c8abda74043878ace160d8f725b.bindPopup(popup_6feadd980a7548aba06c0562c4faeb95)
+        ;
+
+        
+    
+    
+            var circle_marker_d1994e5d6d7f433db6809dc9c0e7888f = L.circleMarker(
+                [31.58661111111111, 100.14166666666668],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_98c5e8051ac64b0eb8b0a99e56d03d34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d7159fd9838487b885c9fc28a0e2b7f = $(`<div id="html_3d7159fd9838487b885c9fc28a0e2b7f" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE261 | 2018</div>`)[0];
+            popup_98c5e8051ac64b0eb8b0a99e56d03d34.setContent(html_3d7159fd9838487b885c9fc28a0e2b7f);
+        
+
+        circle_marker_d1994e5d6d7f433db6809dc9c0e7888f.bindPopup(popup_98c5e8051ac64b0eb8b0a99e56d03d34)
+        ;
+
+        
+    
+    
+            var circle_marker_be82ea8bc62a447cacf9f657897aed63 = L.circleMarker(
+                [31.715305555555556, 99.61627777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_a228fde6c1ad46b4af06dbd61fe35b76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a3312a292b843d1a53a8317c9e149c9 = $(`<div id="html_7a3312a292b843d1a53a8317c9e149c9" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE280 | 2018</div>`)[0];
+            popup_a228fde6c1ad46b4af06dbd61fe35b76.setContent(html_7a3312a292b843d1a53a8317c9e149c9);
+        
+
+        circle_marker_be82ea8bc62a447cacf9f657897aed63.bindPopup(popup_a228fde6c1ad46b4af06dbd61fe35b76)
+        ;
+
+        
+    
+    
+            var circle_marker_d912ae4332cd4487824cab6c46f86b82 = L.circleMarker(
+                [31.911027777777775, 99.25786111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_1b2c16007d104ab7af438879586a4b55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cc503d20d7e48df80bd87f85873e78b = $(`<div id="html_2cc503d20d7e48df80bd87f85873e78b" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE284 | 2018</div>`)[0];
+            popup_1b2c16007d104ab7af438879586a4b55.setContent(html_2cc503d20d7e48df80bd87f85873e78b);
+        
+
+        circle_marker_d912ae4332cd4487824cab6c46f86b82.bindPopup(popup_1b2c16007d104ab7af438879586a4b55)
+        ;
+
+        
+    
+    
+            var circle_marker_84bf66288ee2408bbc824c9188841a47 = L.circleMarker(
+                [32.061277777777775, 99.00944444444444],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_65ce1d2db3a14f56ac0986b5a056cfaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7263b1dcbb034e10b463f1001d48c10f = $(`<div id="html_7263b1dcbb034e10b463f1001d48c10f" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE289 | 2018</div>`)[0];
+            popup_65ce1d2db3a14f56ac0986b5a056cfaa.setContent(html_7263b1dcbb034e10b463f1001d48c10f);
+        
+
+        circle_marker_84bf66288ee2408bbc824c9188841a47.bindPopup(popup_65ce1d2db3a14f56ac0986b5a056cfaa)
+        ;
+
+        
+    
+    
+            var circle_marker_d06d8172a3274fb6920b274591913f52 = L.circleMarker(
+                [32.009027777777774, 99.04827777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_bf679690940a4318a7ab1febb26c083f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89bd5c58294943e6921fe18490ba9a2b = $(`<div id="html_89bd5c58294943e6921fe18490ba9a2b" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE301 | 2018</div>`)[0];
+            popup_bf679690940a4318a7ab1febb26c083f.setContent(html_89bd5c58294943e6921fe18490ba9a2b);
+        
+
+        circle_marker_d06d8172a3274fb6920b274591913f52.bindPopup(popup_bf679690940a4318a7ab1febb26c083f)
+        ;
+
+        
+    
+    
+            var circle_marker_55af8b96d187453dbae6eab5fc3a38fd = L.circleMarker(
+                [31.88711111111111, 99.03377777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_a62273c050104dfd9e35c9733cefeab1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7689a69a737c4c308cd8421e385cc808 = $(`<div id="html_7689a69a737c4c308cd8421e385cc808" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE309 | 2018</div>`)[0];
+            popup_a62273c050104dfd9e35c9733cefeab1.setContent(html_7689a69a737c4c308cd8421e385cc808);
+        
+
+        circle_marker_55af8b96d187453dbae6eab5fc3a38fd.bindPopup(popup_a62273c050104dfd9e35c9733cefeab1)
+        ;
+
+        
+    
+    
+            var circle_marker_a6703668fd874bb48eaf259e85d69b67 = L.circleMarker(
+                [31.88711111111111, 99.03377777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_303619d47690428b982a2f99a8a06ea8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5985b6001fa44f4f8dbd6b1e492d996e = $(`<div id="html_5985b6001fa44f4f8dbd6b1e492d996e" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE310 | 2018</div>`)[0];
+            popup_303619d47690428b982a2f99a8a06ea8.setContent(html_5985b6001fa44f4f8dbd6b1e492d996e);
+        
+
+        circle_marker_a6703668fd874bb48eaf259e85d69b67.bindPopup(popup_303619d47690428b982a2f99a8a06ea8)
+        ;
+
+        
+    
+    
+            var circle_marker_bef07b0261d34740806c983239e56762 = L.circleMarker(
+                [31.88711111111111, 99.03377777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_b3667f61e52847099a63c3d1e4698b9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8070496dd23f4c9b8b09e52fd0794c05 = $(`<div id="html_8070496dd23f4c9b8b09e52fd0794c05" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE311 | 2018</div>`)[0];
+            popup_b3667f61e52847099a63c3d1e4698b9b.setContent(html_8070496dd23f4c9b8b09e52fd0794c05);
+        
+
+        circle_marker_bef07b0261d34740806c983239e56762.bindPopup(popup_b3667f61e52847099a63c3d1e4698b9b)
+        ;
+
+        
+    
+    
+            var circle_marker_12a877e508ba4514a8947a8f77432e75 = L.circleMarker(
+                [31.93252777777778, 98.83319444444444],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_3aa12799e39546f998f94d6663a5bed7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5aff1bc59e5a400aab0223088e39e074 = $(`<div id="html_5aff1bc59e5a400aab0223088e39e074" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE320 | 2018</div>`)[0];
+            popup_3aa12799e39546f998f94d6663a5bed7.setContent(html_5aff1bc59e5a400aab0223088e39e074);
+        
+
+        circle_marker_12a877e508ba4514a8947a8f77432e75.bindPopup(popup_3aa12799e39546f998f94d6663a5bed7)
+        ;
+
+        
+    
+    
+            var circle_marker_6b9361bb11c94b668f649042d2b9dce2 = L.circleMarker(
+                [31.93252777777778, 98.83319444444444],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_ac65e52957414f518bc01453c39d5eec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed6423fb214b4a2d90bca5b2423665be = $(`<div id="html_ed6423fb214b4a2d90bca5b2423665be" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE323 | 2018</div>`)[0];
+            popup_ac65e52957414f518bc01453c39d5eec.setContent(html_ed6423fb214b4a2d90bca5b2423665be);
+        
+
+        circle_marker_6b9361bb11c94b668f649042d2b9dce2.bindPopup(popup_ac65e52957414f518bc01453c39d5eec)
+        ;
+
+        
+    
+    
+            var circle_marker_cbc4dc6e725a4bcaaf637b603eaebb52 = L.circleMarker(
+                [31.87925, 98.59138888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_cf1cb92bfe9f4d5883105ba56dd5538e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_852dc713120b47f08bd40f58509637ca = $(`<div id="html_852dc713120b47f08bd40f58509637ca" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE324 | 2018</div>`)[0];
+            popup_cf1cb92bfe9f4d5883105ba56dd5538e.setContent(html_852dc713120b47f08bd40f58509637ca);
+        
+
+        circle_marker_cbc4dc6e725a4bcaaf637b603eaebb52.bindPopup(popup_cf1cb92bfe9f4d5883105ba56dd5538e)
+        ;
+
+        
+    
+    
+            var circle_marker_647212fecbab48338e44d9ec3500774a = L.circleMarker(
+                [31.558416666666666, 98.67919444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_a15d88346b0f4c4f8f78d4e79c13e958 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b0bf273fb70437c88fc478c1fef4c3a = $(`<div id="html_1b0bf273fb70437c88fc478c1fef4c3a" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE329 | 2018</div>`)[0];
+            popup_a15d88346b0f4c4f8f78d4e79c13e958.setContent(html_1b0bf273fb70437c88fc478c1fef4c3a);
+        
+
+        circle_marker_647212fecbab48338e44d9ec3500774a.bindPopup(popup_a15d88346b0f4c4f8f78d4e79c13e958)
+        ;
+
+        
+    
+    
+            var circle_marker_3e3f7c01e1414fd08ec3aa10deb4888c = L.circleMarker(
+                [31.46325, 98.82013888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_620a2e9ac41e43008cfac7b3232dd7d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f85950a397c44f99201a69f4d243329 = $(`<div id="html_3f85950a397c44f99201a69f4d243329" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE330 | 2018</div>`)[0];
+            popup_620a2e9ac41e43008cfac7b3232dd7d0.setContent(html_3f85950a397c44f99201a69f4d243329);
+        
+
+        circle_marker_3e3f7c01e1414fd08ec3aa10deb4888c.bindPopup(popup_620a2e9ac41e43008cfac7b3232dd7d0)
+        ;
+
+        
+    
+    
+            var circle_marker_e7de409324ef4a418483737d4355418a = L.circleMarker(
+                [31.12236111111111, 98.89002777777779],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_ab6dbe0bed33493f8e0a2fe8324b48ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f59f3edfcb5b4a23b63fde505661f731 = $(`<div id="html_f59f3edfcb5b4a23b63fde505661f731" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE336 | 2018</div>`)[0];
+            popup_ab6dbe0bed33493f8e0a2fe8324b48ac.setContent(html_f59f3edfcb5b4a23b63fde505661f731);
+        
+
+        circle_marker_e7de409324ef4a418483737d4355418a.bindPopup(popup_ab6dbe0bed33493f8e0a2fe8324b48ac)
+        ;
+
+        
+    
+    
+            var circle_marker_5b31a7447ca5437f9f2f0ff32460f254 = L.circleMarker(
+                [31.044305555555557, 98.90880555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_70018da498244bf291879187eba0bd6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea15820503ce46158b997a8c132f63c6 = $(`<div id="html_ea15820503ce46158b997a8c132f63c6" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE349 | 2018</div>`)[0];
+            popup_70018da498244bf291879187eba0bd6b.setContent(html_ea15820503ce46158b997a8c132f63c6);
+        
+
+        circle_marker_5b31a7447ca5437f9f2f0ff32460f254.bindPopup(popup_70018da498244bf291879187eba0bd6b)
+        ;
+
+        
+    
+    
+            var circle_marker_bbc96f055f5d476ab43868a4b16d4d87 = L.circleMarker(
+                [30.720027777777776, 99.09127777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_a571ca7ddc224836853161d7e922b040 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0742b3ef346f4cdfa5342cea8a96deda = $(`<div id="html_0742b3ef346f4cdfa5342cea8a96deda" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE366 | 2018</div>`)[0];
+            popup_a571ca7ddc224836853161d7e922b040.setContent(html_0742b3ef346f4cdfa5342cea8a96deda);
+        
+
+        circle_marker_bbc96f055f5d476ab43868a4b16d4d87.bindPopup(popup_a571ca7ddc224836853161d7e922b040)
+        ;
+
+        
+    
+    
+            var circle_marker_238a55de04924db490e0414617b0cfc1 = L.circleMarker(
+                [30.597694444444443, 99.1883888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_2de6cabbf20e48fc9ca97062628a0541 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8efb757806fb42fbaa703ea3b9a6926f = $(`<div id="html_8efb757806fb42fbaa703ea3b9a6926f" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE373 | 2018</div>`)[0];
+            popup_2de6cabbf20e48fc9ca97062628a0541.setContent(html_8efb757806fb42fbaa703ea3b9a6926f);
+        
+
+        circle_marker_238a55de04924db490e0414617b0cfc1.bindPopup(popup_2de6cabbf20e48fc9ca97062628a0541)
+        ;
+
+        
+    
+    
+            var circle_marker_0bdddcd6d2d24c68a1f054b4eab5a6e2 = L.circleMarker(
+                [30.260305555555554, 99.44338888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_31d186a7cad344a5bf9c2139b1aea25d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72483c53c6084c488b68242b9aedc78f = $(`<div id="html_72483c53c6084c488b68242b9aedc78f" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE379 | 2018</div>`)[0];
+            popup_31d186a7cad344a5bf9c2139b1aea25d.setContent(html_72483c53c6084c488b68242b9aedc78f);
+        
+
+        circle_marker_0bdddcd6d2d24c68a1f054b4eab5a6e2.bindPopup(popup_31d186a7cad344a5bf9c2139b1aea25d)
+        ;
+
+        
+    
+    
+            var circle_marker_10e611ce20434b279ab63184386d1b28 = L.circleMarker(
+                [30.28488888888889, 99.39930555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_22e96864c3ef401d866ccb64d3013609 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_153ca3fae50240cc8c7ad328932ff138 = $(`<div id="html_153ca3fae50240cc8c7ad328932ff138" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE386 | 2018</div>`)[0];
+            popup_22e96864c3ef401d866ccb64d3013609.setContent(html_153ca3fae50240cc8c7ad328932ff138);
+        
+
+        circle_marker_10e611ce20434b279ab63184386d1b28.bindPopup(popup_22e96864c3ef401d866ccb64d3013609)
+        ;
+
+        
+    
+    
+            var circle_marker_f09dbe803f234c028ad654673ccc8b41 = L.circleMarker(
+                [30.297027777777778, 99.671],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_7f587aa07cf945be989fbd991bfedcbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8630dc7017ec42a0a1da737be3b61ff1 = $(`<div id="html_8630dc7017ec42a0a1da737be3b61ff1" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE388 | 2018</div>`)[0];
+            popup_7f587aa07cf945be989fbd991bfedcbb.setContent(html_8630dc7017ec42a0a1da737be3b61ff1);
+        
+
+        circle_marker_f09dbe803f234c028ad654673ccc8b41.bindPopup(popup_7f587aa07cf945be989fbd991bfedcbb)
+        ;
+
+        
+    
+    
+            var circle_marker_1105993751194ce5be5d88ec3aa7aaaf = L.circleMarker(
+                [30.227277777777775, 100.24769444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_853e540fc8034fd9a504c4aaf5a4184b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cec72a4d53b4fb3bedae1d7877a01d4 = $(`<div id="html_2cec72a4d53b4fb3bedae1d7877a01d4" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE404 | 2018</div>`)[0];
+            popup_853e540fc8034fd9a504c4aaf5a4184b.setContent(html_2cec72a4d53b4fb3bedae1d7877a01d4);
+        
+
+        circle_marker_1105993751194ce5be5d88ec3aa7aaaf.bindPopup(popup_853e540fc8034fd9a504c4aaf5a4184b)
+        ;
+
+        
+    
+    
+            var circle_marker_6c582167a03549418e0af514906ed48d = L.circleMarker(
+                [29.820833333333333, 100.34588888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_3f43395848c84480a324cc1d1921a1dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_749aefe37d51480a8b6618a296d2fa98 = $(`<div id="html_749aefe37d51480a8b6618a296d2fa98" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE417 | 2018</div>`)[0];
+            popup_3f43395848c84480a324cc1d1921a1dc.setContent(html_749aefe37d51480a8b6618a296d2fa98);
+        
+
+        circle_marker_6c582167a03549418e0af514906ed48d.bindPopup(popup_3f43395848c84480a324cc1d1921a1dc)
+        ;
+
+        
+    
+    
+            var circle_marker_512c49bde37e438fa86a52068430692d = L.circleMarker(
+                [29.141805555555557, 100.15661111111112],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_a79f6cd2c4e5420e96d41ba0859f1b26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_008a4cd32e2d415fba3b032104a35487 = $(`<div id="html_008a4cd32e2d415fba3b032104a35487" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE420 | 2018</div>`)[0];
+            popup_a79f6cd2c4e5420e96d41ba0859f1b26.setContent(html_008a4cd32e2d415fba3b032104a35487);
+        
+
+        circle_marker_512c49bde37e438fa86a52068430692d.bindPopup(popup_a79f6cd2c4e5420e96d41ba0859f1b26)
+        ;
+
+        
+    
+    
+            var circle_marker_9886b2815df3471c91d4944796710e1a = L.circleMarker(
+                [28.74638888888889, 100.26916666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_3a31813c567248b2be6a911c28199af0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ed30eca98b546ababd1ee67a094a744 = $(`<div id="html_4ed30eca98b546ababd1ee67a094a744" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE438 | 2018</div>`)[0];
+            popup_3a31813c567248b2be6a911c28199af0.setContent(html_4ed30eca98b546ababd1ee67a094a744);
+        
+
+        circle_marker_9886b2815df3471c91d4944796710e1a.bindPopup(popup_3a31813c567248b2be6a911c28199af0)
+        ;
+
+        
+    
+    
+            var circle_marker_5928a3102206488dacb01090df3b3e14 = L.circleMarker(
+                [28.955555555555556, 99.75330555555556],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_f33215261be447f7b780e02947f4e9b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73749e1cfc654652ba6d7d8769b31746 = $(`<div id="html_73749e1cfc654652ba6d7d8769b31746" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE448 | 2018</div>`)[0];
+            popup_f33215261be447f7b780e02947f4e9b8.setContent(html_73749e1cfc654652ba6d7d8769b31746);
+        
+
+        circle_marker_5928a3102206488dacb01090df3b3e14.bindPopup(popup_f33215261be447f7b780e02947f4e9b8)
+        ;
+
+        
+    
+    
+            var circle_marker_6cfe7adc1757408285134d89da1bfe73 = L.circleMarker(
+                [28.290277777777778, 101.15494444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_88f28c8664fa4319bf818a9d3874371e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c31d415e48824384a8083fdaa66c7e6e = $(`<div id="html_c31d415e48824384a8083fdaa66c7e6e" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE500 | 2019</div>`)[0];
+            popup_88f28c8664fa4319bf818a9d3874371e.setContent(html_c31d415e48824384a8083fdaa66c7e6e);
+        
+
+        circle_marker_6cfe7adc1757408285134d89da1bfe73.bindPopup(popup_88f28c8664fa4319bf818a9d3874371e)
+        ;
+
+        
+    
+    
+            var circle_marker_93830a1234004de99191813e20115e88 = L.circleMarker(
+                [29.844166666666666, 102.04519444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_740ba5e3f6374a03a7b5e8914d5d4270 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_beecdefc5f294a0c84cfe3d8e8ec30e8 = $(`<div id="html_beecdefc5f294a0c84cfe3d8e8ec30e8" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE507 | 2019</div>`)[0];
+            popup_740ba5e3f6374a03a7b5e8914d5d4270.setContent(html_beecdefc5f294a0c84cfe3d8e8ec30e8);
+        
+
+        circle_marker_93830a1234004de99191813e20115e88.bindPopup(popup_740ba5e3f6374a03a7b5e8914d5d4270)
+        ;
+
+        
+    
+    
+            var circle_marker_b14eaf272c794b4987954d70e395644b = L.circleMarker(
+                [29.88138888888889, 102.02],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_498abc33e9d5410ea5adc107b42d2bc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8c01abcb7284ae89550320f29d8a0ff = $(`<div id="html_a8c01abcb7284ae89550320f29d8a0ff" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE513 | 2019</div>`)[0];
+            popup_498abc33e9d5410ea5adc107b42d2bc5.setContent(html_a8c01abcb7284ae89550320f29d8a0ff);
+        
+
+        circle_marker_b14eaf272c794b4987954d70e395644b.bindPopup(popup_498abc33e9d5410ea5adc107b42d2bc5)
+        ;
+
+        
+    
+    
+            var circle_marker_acceb1886e1741e589893574d141b633 = L.circleMarker(
+                [29.903527777777775, 101.99961111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_08e57e37bf964f3da76e7acf78856756 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8171a6c294ba405d9559e2c9b77206e2 = $(`<div id="html_8171a6c294ba405d9559e2c9b77206e2" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE514 | 2019</div>`)[0];
+            popup_08e57e37bf964f3da76e7acf78856756.setContent(html_8171a6c294ba405d9559e2c9b77206e2);
+        
+
+        circle_marker_acceb1886e1741e589893574d141b633.bindPopup(popup_08e57e37bf964f3da76e7acf78856756)
+        ;
+
+        
+    
+    
+            var circle_marker_a5952b3859f94d84a4a832036df31d2c = L.circleMarker(
+                [30.050833333333333, 101.96263888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_d0e6873e72564fcfb9c97614da58f46c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a41fc01421e452a80a1c118c859ffd4 = $(`<div id="html_9a41fc01421e452a80a1c118c859ffd4" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE517 | 2019</div>`)[0];
+            popup_d0e6873e72564fcfb9c97614da58f46c.setContent(html_9a41fc01421e452a80a1c118c859ffd4);
+        
+
+        circle_marker_a5952b3859f94d84a4a832036df31d2c.bindPopup(popup_d0e6873e72564fcfb9c97614da58f46c)
+        ;
+
+        
+    
+    
+            var circle_marker_5e8fbbf184014ff896643ac36422d2dd = L.circleMarker(
+                [30.14461111111111, 101.85930555555555],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_f0452795137642148a26f4c6738bf154 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bf06d64a27b4d8e93f78f7ebff558b7 = $(`<div id="html_1bf06d64a27b4d8e93f78f7ebff558b7" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE521 | 2019</div>`)[0];
+            popup_f0452795137642148a26f4c6738bf154.setContent(html_1bf06d64a27b4d8e93f78f7ebff558b7);
+        
+
+        circle_marker_5e8fbbf184014ff896643ac36422d2dd.bindPopup(popup_f0452795137642148a26f4c6738bf154)
+        ;
+
+        
+    
+    
+            var circle_marker_b08ae2262d1e42229a5de531e9838803 = L.circleMarker(
+                [30.19263888888889, 101.8775],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_6486391e8ea5429a9acc251f547fb270 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a2560a436ca4821b58180a281620a0a = $(`<div id="html_4a2560a436ca4821b58180a281620a0a" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE525 | 2019</div>`)[0];
+            popup_6486391e8ea5429a9acc251f547fb270.setContent(html_4a2560a436ca4821b58180a281620a0a);
+        
+
+        circle_marker_b08ae2262d1e42229a5de531e9838803.bindPopup(popup_6486391e8ea5429a9acc251f547fb270)
+        ;
+
+        
+    
+    
+            var circle_marker_8c6150d470a54d89809e4276fbaa8ecf = L.circleMarker(
+                [30.012888888888888, 101.86272222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_ece88bc08bf84b58a3fe7096e6138903 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3906b3985d08435b817ef4fddff80749 = $(`<div id="html_3906b3985d08435b817ef4fddff80749" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE527 | 2019</div>`)[0];
+            popup_ece88bc08bf84b58a3fe7096e6138903.setContent(html_3906b3985d08435b817ef4fddff80749);
+        
+
+        circle_marker_8c6150d470a54d89809e4276fbaa8ecf.bindPopup(popup_ece88bc08bf84b58a3fe7096e6138903)
+        ;
+
+        
+    
+    
+            var circle_marker_6f7bdaf677b746c8a3b5c82c3df70db3 = L.circleMarker(
+                [30.012888888888888, 101.86272222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_7ee16c8896014021b026e9e9246afd1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92912aae7d8347fbab86542c6a1b466e = $(`<div id="html_92912aae7d8347fbab86542c6a1b466e" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE528 | 2019</div>`)[0];
+            popup_7ee16c8896014021b026e9e9246afd1f.setContent(html_92912aae7d8347fbab86542c6a1b466e);
+        
+
+        circle_marker_6f7bdaf677b746c8a3b5c82c3df70db3.bindPopup(popup_7ee16c8896014021b026e9e9246afd1f)
+        ;
+
+        
+    
+    
+            var circle_marker_a9ee17c7f9d54b4bb36b477a7703d8df = L.circleMarker(
+                [30.040277777777778, 101.83777777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_a1616d3add3b4a79afa37dba4c5726b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd0ad1dfc1c542ada6b41b342518bb1b = $(`<div id="html_fd0ad1dfc1c542ada6b41b342518bb1b" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE538 | 2019</div>`)[0];
+            popup_a1616d3add3b4a79afa37dba4c5726b2.setContent(html_fd0ad1dfc1c542ada6b41b342518bb1b);
+        
+
+        circle_marker_a9ee17c7f9d54b4bb36b477a7703d8df.bindPopup(popup_a1616d3add3b4a79afa37dba4c5726b2)
+        ;
+
+        
+    
+    
+            var circle_marker_616332e1c73140599f52cc84740ed72b = L.circleMarker(
+                [30.74063888888889, 101.33436111111111],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_26d2f40322e14d43aa9a7162b0f5b2e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47102dc4d20e45a6a7d4d5d3a12322ee = $(`<div id="html_47102dc4d20e45a6a7d4d5d3a12322ee" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE557 | 2019</div>`)[0];
+            popup_26d2f40322e14d43aa9a7162b0f5b2e4.setContent(html_47102dc4d20e45a6a7d4d5d3a12322ee);
+        
+
+        circle_marker_616332e1c73140599f52cc84740ed72b.bindPopup(popup_26d2f40322e14d43aa9a7162b0f5b2e4)
+        ;
+
+        
+    
+    
+            var circle_marker_4fce6088fdca4246ab213cbb7c170291 = L.circleMarker(
+                [31.72472222222222, 100.74266666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_a8edef7806874ceebe780fbb72565230 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5d43949a6e141deae9e3ec5f916d0ea = $(`<div id="html_f5d43949a6e141deae9e3ec5f916d0ea" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE584 | 2019</div>`)[0];
+            popup_a8edef7806874ceebe780fbb72565230.setContent(html_f5d43949a6e141deae9e3ec5f916d0ea);
+        
+
+        circle_marker_4fce6088fdca4246ab213cbb7c170291.bindPopup(popup_a8edef7806874ceebe780fbb72565230)
+        ;
+
+        
+    
+    
+            var circle_marker_e16f8825639d4a369bac1ecb826eaea9 = L.circleMarker(
+                [31.42361111111111, 100.62083333333332],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_e3b027f5805743e987787e94819b8d1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be0d838121bf4c2ebf2e290538e501a2 = $(`<div id="html_be0d838121bf4c2ebf2e290538e501a2" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE589 | 2019</div>`)[0];
+            popup_e3b027f5805743e987787e94819b8d1d.setContent(html_be0d838121bf4c2ebf2e290538e501a2);
+        
+
+        circle_marker_e16f8825639d4a369bac1ecb826eaea9.bindPopup(popup_e3b027f5805743e987787e94819b8d1d)
+        ;
+
+        
+    
+    
+            var circle_marker_ae99220b51fa462eb1ecc487a08f2ba2 = L.circleMarker(
+                [31.42361111111111, 100.62083333333332],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_97cb96e050d248fa8a4c1f292ca5a947 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9adfaf38d28f467aaca17eae0af186ac = $(`<div id="html_9adfaf38d28f467aaca17eae0af186ac" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE592 | 2019</div>`)[0];
+            popup_97cb96e050d248fa8a4c1f292ca5a947.setContent(html_9adfaf38d28f467aaca17eae0af186ac);
+        
+
+        circle_marker_ae99220b51fa462eb1ecc487a08f2ba2.bindPopup(popup_97cb96e050d248fa8a4c1f292ca5a947)
+        ;
+
+        
+    
+    
+            var circle_marker_f257f1e308d446e1a3011cf593df751e = L.circleMarker(
+                [31.98097222222222, 100.96436111111112],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_81dc603f55fe4dfdaa02b90e22775037 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cc18fccb5554aa2923363d5a367c2ec = $(`<div id="html_0cc18fccb5554aa2923363d5a367c2ec" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE600 | 2019</div>`)[0];
+            popup_81dc603f55fe4dfdaa02b90e22775037.setContent(html_0cc18fccb5554aa2923363d5a367c2ec);
+        
+
+        circle_marker_f257f1e308d446e1a3011cf593df751e.bindPopup(popup_81dc603f55fe4dfdaa02b90e22775037)
+        ;
+
+        
+    
+    
+            var circle_marker_56d88e703ecd402d94b046bbd36859f6 = L.circleMarker(
+                [32.13869444444445, 101.03999999999999],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_026746a045f742d7b20f794694022a95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe8bfdde55d744b5b3f67d99c32d6c5a = $(`<div id="html_fe8bfdde55d744b5b3f67d99c32d6c5a" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE605 | 2019</div>`)[0];
+            popup_026746a045f742d7b20f794694022a95.setContent(html_fe8bfdde55d744b5b3f67d99c32d6c5a);
+        
+
+        circle_marker_56d88e703ecd402d94b046bbd36859f6.bindPopup(popup_026746a045f742d7b20f794694022a95)
+        ;
+
+        
+    
+    
+            var circle_marker_ce06f891c9d245aea59263a9b105627a = L.circleMarker(
+                [32.32527777777778, 101.08063888888888],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_542b9b40fc834a56afcf16a15a1d09fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e658f4415eaa4ac8b6afcaeb4cf21660 = $(`<div id="html_e658f4415eaa4ac8b6afcaeb4cf21660" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE637 | 2019</div>`)[0];
+            popup_542b9b40fc834a56afcf16a15a1d09fd.setContent(html_e658f4415eaa4ac8b6afcaeb4cf21660);
+        
+
+        circle_marker_ce06f891c9d245aea59263a9b105627a.bindPopup(popup_542b9b40fc834a56afcf16a15a1d09fd)
+        ;
+
+        
+    
+    
+            var circle_marker_8eb332558e0c444697d5b3ebe8b4dd1e = L.circleMarker(
+                [31.51527777777778, 100.69166666666668],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_9383d738c13f4a8295eb60cebeda4cad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_101bbc241d7748719748a07281d93fe9 = $(`<div id="html_101bbc241d7748719748a07281d93fe9" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE648 | 2019</div>`)[0];
+            popup_9383d738c13f4a8295eb60cebeda4cad.setContent(html_101bbc241d7748719748a07281d93fe9);
+        
+
+        circle_marker_8eb332558e0c444697d5b3ebe8b4dd1e.bindPopup(popup_9383d738c13f4a8295eb60cebeda4cad)
+        ;
+
+        
+    
+    
+            var circle_marker_1a7d3e73b44a41688ff6226b44e8c745 = L.circleMarker(
+                [31.695972222222224, 100.705],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_07dd5ceaa1e040fa9092b6bef3942db5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_829518f9b6f44a0990ef2c78d2d6a520 = $(`<div id="html_829518f9b6f44a0990ef2c78d2d6a520" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE654 | 2019</div>`)[0];
+            popup_07dd5ceaa1e040fa9092b6bef3942db5.setContent(html_829518f9b6f44a0990ef2c78d2d6a520);
+        
+
+        circle_marker_1a7d3e73b44a41688ff6226b44e8c745.bindPopup(popup_07dd5ceaa1e040fa9092b6bef3942db5)
+        ;
+
+        
+    
+    
+            var circle_marker_43b7066af7634139a3f5b9f66a8dcc4c = L.circleMarker(
+                [32.32241666666667, 102.45541666666666],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_104b7577f2c2441f9670279aab6ef498 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6715c5dda5ac495dacd295cb46dc0011 = $(`<div id="html_6715c5dda5ac495dacd295cb46dc0011" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE662 | 2019</div>`)[0];
+            popup_104b7577f2c2441f9670279aab6ef498.setContent(html_6715c5dda5ac495dacd295cb46dc0011);
+        
+
+        circle_marker_43b7066af7634139a3f5b9f66a8dcc4c.bindPopup(popup_104b7577f2c2441f9670279aab6ef498)
+        ;
+
+        
+    
+    
+            var circle_marker_c403e40557154839b1ecec4290b33ec3 = L.circleMarker(
+                [32.535555555555554, 102.3325],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_36447d49a3b0493eaf8fda53625fb508 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5bbe2cc2e3447a99c4698d7864c7a33 = $(`<div id="html_d5bbe2cc2e3447a99c4698d7864c7a33" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE676 | 2019</div>`)[0];
+            popup_36447d49a3b0493eaf8fda53625fb508.setContent(html_d5bbe2cc2e3447a99c4698d7864c7a33);
+        
+
+        circle_marker_c403e40557154839b1ecec4290b33ec3.bindPopup(popup_36447d49a3b0493eaf8fda53625fb508)
+        ;
+
+        
+    
+    
+            var circle_marker_cd48c9d9a54d42e2b90145f2f69eca00 = L.circleMarker(
+                [32.908055555555556, 101.89055555555557],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_6db48cdee48446f693a53a2c1b2cd046 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_297e4b429d1a42fbb4ff04b8e12fdfe8 = $(`<div id="html_297e4b429d1a42fbb4ff04b8e12fdfe8" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE691 | 2019</div>`)[0];
+            popup_6db48cdee48446f693a53a2c1b2cd046.setContent(html_297e4b429d1a42fbb4ff04b8e12fdfe8);
+        
+
+        circle_marker_cd48c9d9a54d42e2b90145f2f69eca00.bindPopup(popup_6db48cdee48446f693a53a2c1b2cd046)
+        ;
+
+        
+    
+    
+            var circle_marker_96dc317a605d487c915dc9656a598d54 = L.circleMarker(
+                [33.54694444444444, 101.53597222222223],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_faacfc3465c04561884ba2fbdca3093c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3154c168c19f43bf9cdbdf7d4cb440bd = $(`<div id="html_3154c168c19f43bf9cdbdf7d4cb440bd" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE704 | 2019</div>`)[0];
+            popup_faacfc3465c04561884ba2fbdca3093c.setContent(html_3154c168c19f43bf9cdbdf7d4cb440bd);
+        
+
+        circle_marker_96dc317a605d487c915dc9656a598d54.bindPopup(popup_faacfc3465c04561884ba2fbdca3093c)
+        ;
+
+        
+    
+    
+            var circle_marker_16b5a89127e64ffca5e6a9a51b4436ad = L.circleMarker(
+                [33.93944444444444, 102.03019444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_0f31b77d29154faa9f5ad92e9d2bcb9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_795ab487f1774e5f9111a5a9451b6f5f = $(`<div id="html_795ab487f1774e5f9111a5a9451b6f5f" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE713 | 2019</div>`)[0];
+            popup_0f31b77d29154faa9f5ad92e9d2bcb9c.setContent(html_795ab487f1774e5f9111a5a9451b6f5f);
+        
+
+        circle_marker_16b5a89127e64ffca5e6a9a51b4436ad.bindPopup(popup_0f31b77d29154faa9f5ad92e9d2bcb9c)
+        ;
+
+        
+    
+    
+            var circle_marker_893b1134117c453fa1b17e548d10b1e9 = L.circleMarker(
+                [33.93944444444444, 102.03019444444445],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_d761a4e6cc2849b4b54b7ffacfdd2777 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9a387d5fa7a4fa48e169ed8dacb160d = $(`<div id="html_b9a387d5fa7a4fa48e169ed8dacb160d" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE714 | 2019</div>`)[0];
+            popup_d761a4e6cc2849b4b54b7ffacfdd2777.setContent(html_b9a387d5fa7a4fa48e169ed8dacb160d);
+        
+
+        circle_marker_893b1134117c453fa1b17e548d10b1e9.bindPopup(popup_d761a4e6cc2849b4b54b7ffacfdd2777)
+        ;
+
+        
+    
+    
+            var circle_marker_20cedb65148d40809ba6782e221fab43 = L.circleMarker(
+                [34.22083333333334, 102.25527777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_bf28ff0da45043c4ad90be14c79a52fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0ee7616825d4680884d963bac7a5334 = $(`<div id="html_d0ee7616825d4680884d963bac7a5334" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE732 | 2019</div>`)[0];
+            popup_bf28ff0da45043c4ad90be14c79a52fc.setContent(html_d0ee7616825d4680884d963bac7a5334);
+        
+
+        circle_marker_20cedb65148d40809ba6782e221fab43.bindPopup(popup_bf28ff0da45043c4ad90be14c79a52fc)
+        ;
+
+        
+    
+    
+            var circle_marker_93603d9395f24561a957e3030dddfd9b = L.circleMarker(
+                [34.16555555555556, 102.90527777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_a6da3172d17449fc8fdf6925412ea1f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1595b6ce76d34c93a7f6827ec1c657e7 = $(`<div id="html_1595b6ce76d34c93a7f6827ec1c657e7" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE739 | 2019</div>`)[0];
+            popup_a6da3172d17449fc8fdf6925412ea1f5.setContent(html_1595b6ce76d34c93a7f6827ec1c657e7);
+        
+
+        circle_marker_93603d9395f24561a957e3030dddfd9b.bindPopup(popup_a6da3172d17449fc8fdf6925412ea1f5)
+        ;
+
+        
+    
+    
+            var circle_marker_c3431cfb06c1420d877c1f5313e29626 = L.circleMarker(
+                [33.57777777777778, 102.90222222222222],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_5240c1f338d34ff9af21f56c83a2f423 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2d5d6a8f4514452a6ba2e3d0c083502 = $(`<div id="html_d2d5d6a8f4514452a6ba2e3d0c083502" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE745 | 2019</div>`)[0];
+            popup_5240c1f338d34ff9af21f56c83a2f423.setContent(html_d2d5d6a8f4514452a6ba2e3d0c083502);
+        
+
+        circle_marker_c3431cfb06c1420d877c1f5313e29626.bindPopup(popup_5240c1f338d34ff9af21f56c83a2f423)
+        ;
+
+        
+    
+    
+            var circle_marker_99e5b959ebf84c3a949842852e828310 = L.circleMarker(
+                [31.847777777777775, 102.6388888888889],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_3d75a43d5ef44a81b2fb9e941ca68c07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad445d974976487ba217e0cca582f8e9 = $(`<div id="html_ad445d974976487ba217e0cca582f8e9" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE760 | 2019</div>`)[0];
+            popup_3d75a43d5ef44a81b2fb9e941ca68c07.setContent(html_ad445d974976487ba217e0cca582f8e9);
+        
+
+        circle_marker_99e5b959ebf84c3a949842852e828310.bindPopup(popup_3d75a43d5ef44a81b2fb9e941ca68c07)
+        ;
+
+        
+    
+    
+            var circle_marker_97eefa2dc3e84872abbe977921724c9c = L.circleMarker(
+                [31.83138888888889, 102.68333333333334],
+                {"bubblingMouseEvents": true, "color": "rgba(85.1%,37.3%,0.8%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(85.1%,37.3%,0.8%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_020c7062fe4c4526b6f1e6920166e771 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f36b38a994b94b7f9d2b60d7945811a2 = $(`<div id="html_f36b38a994b94b7f9d2b60d7945811a2" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | DE762 | 2019</div>`)[0];
+            popup_020c7062fe4c4526b6f1e6920166e771.setContent(html_f36b38a994b94b7f9d2b60d7945811a2);
+        
+
+        circle_marker_97eefa2dc3e84872abbe977921724c9c.bindPopup(popup_020c7062fe4c4526b6f1e6920166e771)
+        ;
+
+        
+    
+    
+            var circle_marker_ea4f0ebd7a8c41eeb984d68a00fe9d27 = L.circleMarker(
+                [29.112222222222222, 100.03277777777778],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_fc37347af7d44e71b4a73150c80f0ce1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86410551921a48769649fbff64c7830a = $(`<div id="html_86410551921a48769649fbff64c7830a" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | 28607 | 1998</div>`)[0];
+            popup_fc37347af7d44e71b4a73150c80f0ce1.setContent(html_86410551921a48769649fbff64c7830a);
+        
+
+        circle_marker_ea4f0ebd7a8c41eeb984d68a00fe9d27.bindPopup(popup_fc37347af7d44e71b4a73150c80f0ce1)
+        ;
+
+        
+    
+    
+            var circle_marker_0721362deefe4e08bcb6d8fd4462a4c6 = L.circleMarker(
+                [29.001944444444444, 99.74277777777777],
+                {"bubblingMouseEvents": true, "color": "rgba(45.9%,43.9%,70.2%,1.000)", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "rgba(45.9%,43.9%,70.2%,1.000)", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.256997823576231, "stroke": true, "weight": 3}
+            ).addTo(map_5618d4fb18c8416684b763a3f245a1eb);
+        
+    
+        var popup_abf3da9a6611455daf15ce537001c0b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8db06eed5a1046e1b9f19edf275c73ec = $(`<div id="html_8db06eed5a1046e1b9f19edf275c73ec" style="width: 100.0%; height: 100.0%;">Pedicularis-kansuensis | 28992 | 1998</div>`)[0];
+            popup_abf3da9a6611455daf15ce537001c0b6.setContent(html_8db06eed5a1046e1b9f19edf275c73ec);
+        
+
+        circle_marker_0721362deefe4e08bcb6d8fd4462a4c6.bindPopup(popup_abf3da9a6611455daf15ce537001c0b6)
+        ;
+
+        
+    
+</script>
